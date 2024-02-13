@@ -13,12 +13,12 @@ on:
         KERNEL_SOURCE:
           description: 'Kernel Source'
           required: true
-          default: "https://github.com/bheatleyyy/kernel_oplus_sm8350.git"
+          default: "https://github.com/Delphox/kernel_oneplus_sm8350.git"
           type: string
         KERNEL_SOURCE_BRANCH:
           description: 'kernel Branch'
           required: true
-          default: "thirteen"
+          default: "fourteen"
           type: string
         KERNEL_DEFCONFIG:
           description: 'Kernel Config'
@@ -28,7 +28,7 @@ on:
         ANYKERNEL3_SOURCE:
           description: 'Anykernel3 Source'
           required: true
-          default: "https://github.com/natsumerinchan/AnyKernel3-op9rt.git"
+          default: "https://github.com/Delphox/AnyKernel3-op9rt.git"
           type: string
         ANYKERNEL3_SOURCE_BRANCH:
           description: 'Anykernel3 Branch'
